@@ -1,0 +1,14 @@
+Student Aaron's Desk
+
+--Attributes
+1. material_type ("wood")
+2. number_of_legs (3)
+3. person_at_desk ("Aaron")
+4. max_weight_capacity (20.5)
+5. current_weight (80.0)
+
+-Methods
+1. will_desk_collapse (True, current_weight exceeds max_weight_capacity)
+2. whos_desk_is_this (Aaron)
+3. whats_desk_made_of (wood)
+4. desk_wobble (True, number_of_legs is < 4)
