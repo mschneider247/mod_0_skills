@@ -1,0 +1,14 @@
+Chemistry Textbook
+
+-Attributes
+1. subject ("Chemistry")
+2. number_of_pages (400)
+3. cover_art (FALSE)
+4. current_page (200)
+5. binding_type (softcover)
+
+-Methods
+1. what_subject (returns "Chemistry")
+2. percent_complete (returns 50%, based on current_page 200 / number_of_pages 400)
+3. whats_on_the_cover (FALSE, nothing on the cover)
+4. how_durable (not durable, based on its binding_type)

@@ -1,0 +1,14 @@
+Textbook
+
+-Attributes
+1. subject (string)
+2. number_of_pages (integer)
+3. cover_art (boolean)
+4. current_page (integer)
+5. binding_type (string)
+
+-Methods
+1. what_subject (returns a string based on subject)
+2. percent_complete (returns a percentage based on current_page divided by number_of_pages)
+3. whats_on_the_cover (returns a boolean indicating whether there is art on the cover or not)
+4. how_durable (gets pased the string binding_type and then if softcover will return not durable, if hardcover will return durable)
