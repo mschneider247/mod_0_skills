@@ -12,3 +12,6 @@ Student Aaron's Desk
 2. whos_desk_is_this (Aaron)
 3. whats_desk_made_of (wood)
 4. desk_wobble (True, number_of_legs is < 4)
+5. check_occupancy (True, "'Aaron' is sitting here")
+6. assign_occupancy ("'Aaron' is sitting here. Would you like to remove them?")
+7. add_leg (number_of_legs now equals 4)
