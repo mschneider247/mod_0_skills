@@ -10,5 +10,9 @@ Textbook
 -Methods
 1. what_subject (returns a string based on subject)
 2. percent_complete (returns a percentage based on current_page divided by number_of_pages)
-3. whats_on_the_cover (returns a boolean indicating whether there is art on the cover or not)
+3. whats_on_the_cover (checks cover_art indicating whether there is art on the cover or not)
 4. how_durable (gets pased the string binding_type and then if softcover will return not durable, if hardcover will return durable)
+5. turn_page (adds 1 to current_page)
+6. draw_on_cover (If cover_art equals False, changes its value to True)
+7. find_index (Changes current_page to equal number_of_pages taking the user to the end of the book)
+8. restart_book (Changes current_page to 1)
