@@ -12,3 +12,6 @@ Desk
 2. whos_desk_is_this (Returns a string based on person_at_desk)
 3. whats_desk_made_of (Returns a string based on material_type)
 4. desk_wobble (Returns a boolean, True if number_of_legs is < 4)
+5. check_occupancy (Checks person_at_desk, if there is an empty string return False "No one at desk", otherwise return True "(person_at_desk) is sitting here")
+6. assign_occupancy (If check_occupancy returns false, we would use this method to add a name(string) to person_at_desk. If check occupancy returns true, we can use this method to place an empty string into person_at_desk to remove them)
+7. add_leg (Increases the value of number_of_legs by 1)
